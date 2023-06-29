@@ -1,0 +1,15 @@
+.gallery-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover; /* para recortar la imagen y mantener su relación de aspecto */
+}
+.my-card {
+  height: 250px;
+  width: 100%; /* haz que todas las tarjetas tengan el mismo ancho */
+}
+
+.my-card img {
+  height: 100%; /* haz que todas las imágenes tengan la misma altura */
+  width: 100%;
+  object-fit: cover; /* haz que todas las imágenes tengan el mismo ancho */
+}
